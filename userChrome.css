@@ -12,11 +12,16 @@
     display: none;
 }
 
-/* Remove fine white lines*/
+/* Remove fine white lines */
 #main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar .titlebar-spacer {
     border-inline-end: none;
 }
 
 .sidebar-splitter {
     border-color: transparent !important;
+}
+
+/* Hide titlebar */
+#titlebar {
+	display: none !important;
 }
